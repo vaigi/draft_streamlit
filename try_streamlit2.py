@@ -1,9 +1,7 @@
 print('try')
 print("------------")
 
-import cv2
-import matplotlib.pyplot as plt
+import streamlit as st
 
-link = r"Roma.jpeg"
-img = cv2.imread(link)
-pli.imshow(img)
+if st.button('Balloons!'):
+    st.balloons()
