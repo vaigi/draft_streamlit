@@ -5,5 +5,5 @@ import streamlit as st
 
 if st.button('Balloons!'):
     st.balloons()
-    print('1')
+    st.write('1')
 
